@@ -1,0 +1,231 @@
+body{
+  width: auto;
+  height: auto;
+  margin: 0;
+  background-image: url("../media/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-family: 'Climate Crisis', cursive;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+label {
+  margin: 10px 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.change_button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 2em;
+}
+
+.change_button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.change_button:active {
+  background-color: #333333;
+  transform: translateY(2px);
+}
+
+.card {
+  background-color: rgba(250,250,250,0.2);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: rgba(50, 50, 90, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -20px;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.input-field {
+
+  max-width: 380px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0px;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  position: relative;
+}
+
+.input-field input {
+  margin-left: 20px;
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.input-field input::placeholder {
+  color: #777777;
+  font-weight: 500;
+}
+
+.btn {
+  width: 100px;
+  background-color: #5995fd;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+h2 {
+  margin-top: 5%;
+}
+
+img {
+  width: auto;
+}
+
+.select-bigger{
+  font-size: 16px;
+  color: brown;
+}
+
+@media (min-width: 767px) {
+  body {
+   margin: 0 auto;
+    font-size: 18px;
+  }
+
+  .card {
+    padding: 4rem;
+  }
+
+  h1 {
+    font-size: 38px;
+	margin-bottom: 5%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .cover {
+    max-width: 600px;
+  }
+
+  .input-field {
+    max-width: 500px;
+  }
+  
+  .select-bigger{
+	font-size: 24px;
+	color: brown;
+  }
+  
+  .btn {
+    width: 150px;
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 1023px) {
+  body{
+    width: 980px;
+    height: 1800px;
+    margin: 0 auto;
+  }
+  
+  .card{
+    margin-top: 2rem;
+    .select-bigger{
+	font-size: 28px;
+	color: brown;
+  }
+}

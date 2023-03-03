@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="image/sad.ico" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <title>Chicago Music Concert Newsletter Sign Up</title>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <section class="card">
+    <main id="container">
+	  <button class="change_button" onclick="changeBackground()">Change Theme</button>
+	  <h1>Chicago Music Concert Newsletter Sign Up</h1>
+	  <p>Stay up-to-date on the latest concerts in Chicago! Sign up for our newsletter to receive notifications about upcoming concerts in your favorite genres.</p>
+	  <img src="media/concert.jpg" alt= "Image of Concert">
+	  <form>
+	    <label for="genres" class = "select-bigger">Select Your Favorite Genres:</label>
+		<div>
+		  <input type="checkbox" id="rock" name="genre" value="Rock">
+		  <label for="rock">Rock</label>
+		</div>
+		<div>
+		  <input type="checkbox" id="pop" name="genre" value="Pop">
+		  <label for="pop">Pop</label>
+		</div>
+		<div>
+		  <input type="checkbox" id="hiphop" name="genre" value="Hip Hop">
+		  <label for="hiphop">Hip Hop</label>
+		</div>
+		<div>
+		  <input type="checkbox" id="jazz" name="genre" value="Jazz">
+		  <label for="jazz">Jazz</label>
+		</div>
+		<div>
+		  <input type="checkbox" id="blues" name="genre" value="Blues">
+		  <label for="blues">Blues</label>
+		</div>
+		<div>
+		  <input type="checkbox" id="country" name="genre" value="Country">
+		  <label for="country">Country</label>
+		</div>
+		<div>
+		  <input type="checkbox" id="edm" name="genre" value="EDM">
+		  <label for="edm">EDM</label>
+		</div>
+		<div>
+		  <input type="checkbox" id="classical" name="genre" value="Classical">
+		  <label for="classical">Classical</label>
+		</div>
+		<div>
+		  <input type="checkbox" id="folk" name="genre" value="Folk">
+		  <label for="folk">Folk</label>
+		</div>
+		<div>
+		  <input type="checkbox" id="world" name="genre" value="World Music">
+		  <label for="world">World Music</label>
+		</div>
+	  </form>
+
+	  <form action = "#" class="sign-in-form" autocomplete="on" id="signup-form">
+        <h2 class="title">Sign Up Now</h2>
+		<div class ="cover">
+          <div class="input-field">
+            <input type="text" name="name" placeholder="Full Name" />
+          </div>
+          <div class="input-field">
+            <input type="email" name="email" placeholder="Email" />
+          </div>
+		  <div class="input-field">
+		    <input type="text" name="age" placeholder="Age" />
+		  </div>
+          <input type="submit" value="Submit" class="btn solid" id="submit_button" />
+		</div>
+	  </form>
+	</main>
+  </section>
+</body>
+</html>
