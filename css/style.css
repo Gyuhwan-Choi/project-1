@@ -184,7 +184,7 @@ img {
 
   h1 {
     font-size: 38px;
-	margin-bottom: 5%;
+    margin-bottom: 5%;
   }
 
   h2 {
@@ -204,8 +204,8 @@ img {
   }
   
   .select-bigger{
-	font-size: 24px;
-	color: brown;
+    font-size: 24px;
+    color: brown;
   }
   
   .btn {
@@ -225,7 +225,7 @@ img {
     margin-top: 2rem;
   }
   .select-bigger{
-	font-size: 28px;
-	color: brown;
+    font-size: 28px;
+    color: brown;
   }
 }
