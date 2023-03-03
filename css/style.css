@@ -223,7 +223,8 @@ img {
   
   .card{
     margin-top: 2rem;
-    .select-bigger{
+  }
+  .select-bigger{
 	font-size: 28px;
 	color: brown;
   }
