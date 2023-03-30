@@ -2,7 +2,7 @@ function changeBackground() {
   
   document.querySelectorAll("*").forEach(el => el.style.color = "white");
   document.querySelectorAll("h1").forEach(el => el.style.color = "yellow");
-  document.querySelectorAll("h2").forEach(el => el.style.color = "orange");
+  document.querySelectorAll("h2").forEach(el => el.style.color = "#eeeeee");
   document.querySelectorAll("label").forEach(el => el.style.color = "#dfdfdf");
   document.querySelectorAll(".select-bigger").forEach(el => el.style.color = "#faf2df");
   
