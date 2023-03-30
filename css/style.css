@@ -221,6 +221,10 @@ img {
     margin: 0 auto;
   }
   
+  h1 {
+    font-size: 38px;
+  }
+  
   .card{
     margin-top: 2rem;
   }
